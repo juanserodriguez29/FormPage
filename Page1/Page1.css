@@ -1,0 +1,110 @@
+html{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: 
+  radial-gradient(circle at top left,#652CD1, transparent 20%, #121826, transparent 100%),
+  radial-gradient(circle at bottom right, #652CD1, transparent 20%, #121826, transparent 100%),
+  linear-gradient(to left, #121826, #121826 )
+}
+
+body {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  }
+
+body h1{
+  font-size: 20px;
+}
+body p{
+  font-size: 14px;
+  color: #A1A1A9;
+}
+body input{
+  background-color: #121826;
+  border: 2px solid #4D5562;
+  border-radius: 10px;
+  padding: 10px 100px 10px 10px;
+}
+
+::placeholder {
+  color: #4D5562;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+#nameP{
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+#emailP{
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+#form{
+  margin-bottom: 30px;
+}
+
+#container{
+  width: 400px;
+  justify-items: center;
+  border: 1px solid #4D5562;
+  border-radius: 10px;
+  background-color: #212936;
+}
+
+#firstSection{
+  display: grid;
+  justify-content: center;
+}
+
+#button{
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+#button button{
+  background-color: #845EEE;
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.circle1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px; 
+  height: 20px;
+  border-radius: 15px;
+  background-color: #652CD1;
+}
+
+.circle11{
+  width: 10px; 
+  height: 10px;
+  border-radius: 5px;
+  background-color: #845EEE;
+}
+
+.circle2, .circle3{
+  width: 10px; 
+  height: 10px;
+  border-radius: 5px;
+  background-color: #394150;
+}
+
+.secondSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

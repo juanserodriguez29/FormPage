@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <script src="Page1.js" defer></script>
+    <link rel="stylesheet" href="Page1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <section id="firstSection">
+            <h1>Register</h1>
+            <form id="form">
+                <p id="nameP">Name</p>
+                <input id="name" type="text" placeholder="enter yor name" required></input>
+                <p id="emailP">Email</p>
+                <input id="email" type="email" placeholder="example@gmail.com" required></input>
+            </form>
+        </section>
+        <div id="button">
+            <button onclick="validation1()">Continue</button>
+        </div>
+    </div>
+    <section class="secondSection">
+        <p style="color: #4D5562;">Step 1 of 3</p>
+        <div class="circle1"><div class="circle11"></div></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </section>
+</body>
+</html>
