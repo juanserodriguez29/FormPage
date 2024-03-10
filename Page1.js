@@ -7,13 +7,14 @@ function validation1(){
     
     if(name1.value === "" || email.value === ""){
         alert("Name or email is empty")
+        return
     }else{
         localStorage.setItem("name", name1.value)
     }
 
     if(validateEmail.test(email.value)){
         localStorage.setItem("email", email.value)
-        window.location.href= "/Page2/Page2.html"
+        window.location.href= "/Page2.html"
     }else{
         console.log("Validación fallida")
         alert("Invalidate email")

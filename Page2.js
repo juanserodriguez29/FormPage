@@ -33,7 +33,7 @@ function validation2(){
     localStorage.setItem("values", values)
 
     if(software.value === "true" || user.value === "true" || graphic.value === "true" ){
-        window.location.href = "/Page3/Page3.html"
+        window.location.href = "/Page3.html"
     }else{
         alert("You must make a selection")
     }
